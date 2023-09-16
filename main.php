@@ -1,5 +1,4 @@
 <?php
-// A
 include 'config.php';
 session_start();
 error_reporting(0);
