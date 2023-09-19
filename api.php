@@ -3,7 +3,7 @@ include "config.php";
 header('Content-Type: application/json; charset=utf-8');
 header("Access-Control-Allow-Origin: *");
 if (isset($_POST['lat']) && isset($_POST['lng'])) {
-    $sql = "INSERT INTO `track` (`id`, `Latitude`, `Longitude`) VALUES (NULL, '" . $_POST['lat'] . "', '" . $_POST['lng'] . "');";
+    $sql = "INSERT INTO `track` (`id`, `latitude`, `longitude`) VALUES (NULL, '" . $_POST['lng'] . "', '" . $_POST['lat'] . "');";
     $res = mysqli_query($conn, $sql);
 }
 if (isset($_POST['passcode'])) {
@@ -26,3 +26,4 @@ if ($res) {
         "passcode" => "0"
     ]);
 }
+

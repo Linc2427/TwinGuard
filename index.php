@@ -55,17 +55,18 @@ if (isset($_POST['submit'])) {
             color: blue;
         }
 
-        /* img {
+        img {
             display: inline-block;
-            width: 768px;
+            width: 83%;
             margin: 0 auto;
-        } */
+        }
 
-        @media only screen and (max-width: 650px) {
+
+        /* @media only screen and (max-width: 650px) {
             img {
                 width: 100%;
             }
-        }
+        } */
 
         /* img {
             display: block;
