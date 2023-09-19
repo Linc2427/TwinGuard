@@ -7,8 +7,8 @@
 #include <Arduino_JSON.h>
 #define buzz 23
 
-#define ssid "WIFI DALAM"
-#define pass "Sagitarius"
+#define ssid "XLGO-PKM"
+#define pass "twinguard"
 #define ip String("twinguard.my.id")
 #define lamaGerak 10000
 #define sampleTime 100
